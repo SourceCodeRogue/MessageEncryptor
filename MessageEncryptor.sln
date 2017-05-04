@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6EB433EF-93DA-441D-842C-4498FE4223EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{49D63230-D708-4F13-878E-02C93B1FD7CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1FDC350F-D1A0-42A1-A22B-DBA776C28E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageEncryptor.WebApi", "MessageEncryptor.WebApi\MessageEncryptor.WebApi.csproj", "{CBF0CE0C-EFDE-46E8-B40A-491E05859787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageEncryptor.Domain", "MessageEncryptor.Domain\MessageEncryptor.Domain.csproj", "{81852B2B-8652-4FEA-A6A5-8EDA1EECD31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageEncryptor.Application", "MessageEncryptor.Application\MessageEncryptor.Application.csproj", "{D1C216CD-CB1F-405E-8F0D-68FC40A8C3CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DCB1E258-D396-4934-9B83-89C65C70403A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageEncryptor.Domain.Tests", "MessageEncryptor.Domain.Tests\MessageEncryptor.Domain.Tests.csproj", "{2AF0F39E-D018-45A9-A9E7-29E933CCE982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0CA2600D-5560-46A0-9FBD-5ACB0A13A68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageEncryptor.Core.Utils", "MessageEncryptor.Core.Utils\MessageEncryptor.Core.Utils.csproj", "{5B43A078-D4A1-4F19-BD67-81F20C1A9AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageEncryptor.Core.Utils.Tests", "MessageEncryptor.Core.Utils.Tests\MessageEncryptor.Core.Utils.Tests.csproj", "{4700F967-1DE7-4B50-9123-C29430047700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageEncryptor.ServiceDefinitions", "MessageEncryptor.ServiceDefinitions\MessageEncryptor.ServiceDefinitions.csproj", "{B17F26BF-FFBB-4622-ABC2-D10F5486805C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF0CE0C-EFDE-46E8-B40A-491E05859787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF0CE0C-EFDE-46E8-B40A-491E05859787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF0CE0C-EFDE-46E8-B40A-491E05859787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF0CE0C-EFDE-46E8-B40A-491E05859787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81852B2B-8652-4FEA-A6A5-8EDA1EECD31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81852B2B-8652-4FEA-A6A5-8EDA1EECD31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81852B2B-8652-4FEA-A6A5-8EDA1EECD31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81852B2B-8652-4FEA-A6A5-8EDA1EECD31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C216CD-CB1F-405E-8F0D-68FC40A8C3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C216CD-CB1F-405E-8F0D-68FC40A8C3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C216CD-CB1F-405E-8F0D-68FC40A8C3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C216CD-CB1F-405E-8F0D-68FC40A8C3CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF0F39E-D018-45A9-A9E7-29E933CCE982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF0F39E-D018-45A9-A9E7-29E933CCE982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF0F39E-D018-45A9-A9E7-29E933CCE982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF0F39E-D018-45A9-A9E7-29E933CCE982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B43A078-D4A1-4F19-BD67-81F20C1A9AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B43A078-D4A1-4F19-BD67-81F20C1A9AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B43A078-D4A1-4F19-BD67-81F20C1A9AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B43A078-D4A1-4F19-BD67-81F20C1A9AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4700F967-1DE7-4B50-9123-C29430047700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4700F967-1DE7-4B50-9123-C29430047700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4700F967-1DE7-4B50-9123-C29430047700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4700F967-1DE7-4B50-9123-C29430047700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17F26BF-FFBB-4622-ABC2-D10F5486805C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17F26BF-FFBB-4622-ABC2-D10F5486805C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17F26BF-FFBB-4622-ABC2-D10F5486805C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17F26BF-FFBB-4622-ABC2-D10F5486805C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBF0CE0C-EFDE-46E8-B40A-491E05859787} = {1FDC350F-D1A0-42A1-A22B-DBA776C28E26}
+		{81852B2B-8652-4FEA-A6A5-8EDA1EECD31F} = {6EB433EF-93DA-441D-842C-4498FE4223EA}
+		{D1C216CD-CB1F-405E-8F0D-68FC40A8C3CD} = {49D63230-D708-4F13-878E-02C93B1FD7CD}
+		{2AF0F39E-D018-45A9-A9E7-29E933CCE982} = {DCB1E258-D396-4934-9B83-89C65C70403A}
+		{5B43A078-D4A1-4F19-BD67-81F20C1A9AF5} = {0CA2600D-5560-46A0-9FBD-5ACB0A13A68F}
+		{4700F967-1DE7-4B50-9123-C29430047700} = {DCB1E258-D396-4934-9B83-89C65C70403A}
+		{B17F26BF-FFBB-4622-ABC2-D10F5486805C} = {49D63230-D708-4F13-878E-02C93B1FD7CD}
+	EndGlobalSection
+EndGlobal
